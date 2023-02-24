@@ -1,0 +1,6 @@
+{% if request.user.is_superuser %}
+<a id="add-notice" class="text-decoration-none text-warning"
+    href="{% url 'notice-create' %}"><span class="material-symbols-outlined display-1 bg-white">
+        add_circle
+        </span></a>
+{% endif %}
