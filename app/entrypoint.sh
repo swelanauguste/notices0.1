@@ -11,8 +11,13 @@ then
     echo "PostgreSQL started"
 fi
 
+python manage.py makemigtrations
 python manage.py migrate
-# python manage.py createsuperuser --username king --email no-reply@mail.com --no-input
+python manage.py createsuperuser --username kingship --email kingship.lc@gmail.com --no-input
+python manage.py add_category_list
+python manage.py add_statuses
+python manage.py add_fake_author_list
+python manage.py add_fake_notices
 python manage.py collectstatic --no-input
 
 exec "$@"
