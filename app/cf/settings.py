@@ -154,7 +154,7 @@ EMAIL_BACKEND = "django.core.mail.backends.filebased.EmailBackend"
 EMAIL_FILE_PATH = "emails"
 
 
-PWA_APP_NAME = "Notices alpha1.0"
+PWA_APP_NAME = "Notices alpha0.1"
 PWA_APP_DESCRIPTION = "Notices"
 PWA_APP_DEBUG_MODE = False
 PWA_APP_THEME_COLOR = "#0A0302"
