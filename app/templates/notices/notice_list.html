@@ -10,14 +10,14 @@
 
 {% block content %}
 
-<div class="container col-lg-4 col-md-8 my-3 pb-5 rounded-4">
+<div class="container col-xl-4 col-lg-8 col-md-10 mx-auto my-3 pb-5 rounded-4">
     <br><br>
     <form method="get">
         <div class="row">
-            <div class="col-lg-6 col-md-4 mb-2">
+            <div class="col-lg-6 mx-auto col-md-6 mb-2">
                 {{ form.category|as_crispy_field }}
             </div>
-            <div class="col-lg-6 col-md-4">
+            <div class="col-lg-6 mx-auto col-md-6">
                 {{ form.title|as_crispy_field }}
             </div>
         </div>
