@@ -31,7 +31,7 @@
     <link rel="stylesheet"
         href="{% static 'css/styles.css' %}">
     <link rel="shortcut icon"
-        href="{% static 'img/ks-logo.jpg' %}"
+        href="{% static 'images/favicon.ico' %}"
         type="image/x-icon">
     <style>
         html,
@@ -48,19 +48,15 @@
         href="/">
         <img width="40"
             class="rounded-circle ms-3 mt-2 shadow fixed-top"
-            src="{% static 'images/ks-logo.png' %}"
+            src="{% static 'images/favicon.ico' %}"
             alt="">
     </a>
 
-    <div class="col-lg-8 mx-auto">
         {% include 'header.html' %}
 
         {% block content %}
 
         {% endblock content %}
-
-    </div>
-
 
     <!-- Footer -->
     {% include 'footer.html' %}

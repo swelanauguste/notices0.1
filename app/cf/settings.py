@@ -157,15 +157,15 @@ EMAIL_FILE_PATH = "emails"
 PWA_APP_NAME = "Notices alpha0.1"
 PWA_APP_DESCRIPTION = "Notices"
 PWA_APP_DEBUG_MODE = False
-PWA_APP_THEME_COLOR = "#0A0302"
-PWA_APP_BACKGROUND_COLOR = "#ffffff"
+PWA_APP_THEME_COLOR = "#A5E7DC"
+PWA_APP_BACKGROUND_COLOR = "#A5E7DC"
 PWA_APP_DISPLAY = "standalone"
 PWA_APP_SCOPE = "/"
 PWA_APP_ORIENTATION = "any"
 PWA_APP_START_URL = "/"
 PWA_APP_STATUS_BAR_COLOR = "default"
-PWA_APP_ICONS = [{"src": "/static/images/ks-logo.png", "sizes": "160x160"}]
-PWA_APP_ICONS_APPLE = [{"src": "/static/images/ks-logo.png", "sizes": "160x160"}]
+PWA_APP_ICONS = [{"src": "/static/images/android-chrome-192x192.png", "sizes": "192x192"}]
+PWA_APP_ICONS_APPLE = [{"src": "/static/images/apple-touch-icon.png", "sizes": "192x192"}]
 PWA_APP_SPLASH_SCREEN = [
     {
         "src": "/static/images/icons/splash-640x1136.png",
