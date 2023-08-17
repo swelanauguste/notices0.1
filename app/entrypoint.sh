@@ -11,12 +11,14 @@ then
     echo "PostgreSQL started"
 fi
 
-python manage.py makemigtrations
+python manage.py makemigrations
 python manage.py migrate
+#python manage.py makemigtrations
+#python manage.py migrate
 # python manage.py flush --no-input
 python manage.py createsuperuser --username kingship --email kingship.lc@gmail.com --no-input
-# python manage.py add_category_list
-# python manage.py add_statuses
+python manage.py add_category_list
+python manage.py add_statuses
 python manage.py collectstatic --no-input
 
 exec "$@"
